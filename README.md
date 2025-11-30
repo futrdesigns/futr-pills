@@ -1,7 +1,7 @@
-futr-pills
+# futr-pills
 A customizable FiveM resource for creating harvestable items with various effects.
 
-Installation
+# Installation
 Download the resource and place it in your resources directory
 
 Add ensure futr-pills to your server.cfg
@@ -12,7 +12,7 @@ ox_lib
 
 ox_inventory (or your preferred inventory system)
 
-Configuration
+# Configuration
 Adding Harvest Locations
 Edit config.lua and add locations to Config.HarvestLocations:
 
@@ -35,7 +35,7 @@ lua
         color = {0, 255, 0, 150}
     }
 }
-Adding New Items
+# Adding New Items
 Add item effects in config.lua:
 
 lua
@@ -63,7 +63,7 @@ lua
         export = 'pill_system.useItem'
     }
 }
-Available Effect Types
+# Available Effect Types
 1: Basic stimulant (energy boost, speed increase)
 
 2: Health restoration (healing)
@@ -76,7 +76,7 @@ Available Effect Types
 
 6: Energy boost (speed and swimming)
 
-Available Animation Types
+# Available Animation Types
 1: Smoking animation
 
 2: Pill swallowing
@@ -89,7 +89,7 @@ Available Animation Types
 
 6: Chemical sniffing
 
-Usage
+# Usage
 Players approach harvest locations marked with green markers
 
 Press E to harvest items
@@ -98,7 +98,7 @@ Use items from inventory to activate effects
 
 Effects automatically wear off after their duration
 
-Commands
+# Commands
 /testitem <item_name> - Test item effects (debug mode only)
 
 Dependencies
