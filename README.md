@@ -1,5 +1,6 @@
 # futr-pills
 A customizable FiveM resource for creating harvestable items with various effects.
+Quick note this hasnt been tested i got a bit bored and made this if it works it works if it doesnt it doesnt it is open source so feel free to fork it and do your own changes
 
 # Installation
 Download the resource and place it in your resources directory
